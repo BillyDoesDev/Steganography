@@ -40,7 +40,7 @@ Once the virtual environment has been created, activate it
 `source venv/bin/activate`
  
 *You should see `(venv)` appear before your prompt in the terminal, indicating that the virtual environment has been activated...*
-Then install the project requirements(The modules used are specified in the `requirements.txt` file)
+Then install the project requirements (The modules used are specified in the `requirements.txt` file)
  
 **Windows/Linux:**`pip install -r requirements.txt`
  
