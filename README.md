@@ -17,14 +17,14 @@ Some Linux distros may not have pip installed by default. In that case, you may 
 Users running a Debian based OS such as Ubuntu may install it by `sudo apt install python3-pip`</br>
 Additionally, the `pyperclip` module which has been used in this project depends on the OS to access the clipboard contents.
 Some Linux disctros may not have certain packages to do so by default. Ubuntu, for example lacks the required packages.
-Users running a Debian based OS such as Ubuntu may install the required package by `sudo apt-get install xclip`
+Users running a Debian based OS such as Ubuntu may install the required package by `sudo apt install xclip`
 
 Read the official `pip` and `pyperclip` documentation for more info...
 
 
 ## Recommended: Create a virtual python environment to house the dependencies of this project
 
-Clone/extract this project into the required directory and then, fire up a terminal there and then create a pythn virtual environment there
+Clone/extract this project into the required directory and then, fire up a terminal there and then create a python virtual environment there
 
 **Windows:**
 `python -m venv venv`
@@ -32,7 +32,7 @@ Clone/extract this project into the required directory and then, fire up a termi
 **Linux:**
 `python3 -m venv venv`
 
-Once the virtual environment has been created, actuvate it
+Once the virtual environment has been created, activate it
 
 **Windows:**
 `venv/Scripts/activate.bat`
@@ -60,7 +60,7 @@ If you want to re-run the script, simply activate the virtual environment again 
 3. The resulting PNG image looses its transparency(if any)
 4. Some Unicode characters cannot be read properly... Using uncommon characters may break the code(all punctuations work fine though)
 5. The max number of characters that can be encoded in an image depends upon its resolution... For example, an image of resolution 1920 by 1080 pixels can accommodate `(1920*1080)/3 = 691200` characters only.
-
+</br></br>
 
 
 **ENJOY!!**
