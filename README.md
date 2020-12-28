@@ -14,7 +14,7 @@ A small python script that allows you to hide secret messages inside images and 
 ## Note(for Linux users):
 
 Some Linux distros may not have pip installed by default. In that case, you may need to install it manually on your system.
-Users running a Debian based OS such as Ubuntu may install it by `sudo apt install python3-pip`
+Users running a Debian based OS such as Ubuntu may install it by `sudo apt install python3-pip`</br>
 Additionally, the `pyperclip` module which has been used in this project depends on the OS to access the clipboard contents.
 Some Linux disctros may not have certain packages to do so by default. Ubuntu, for example lacks the required packages.
 Users running a Debian based OS such as Ubuntu may install the required package by `sudo apt-get install xclip`
@@ -28,6 +28,7 @@ Clone/extract this project into the required directory and then, fire up a termi
 
 **Windows:**
 `python -m venv venv`
+
 **Linux:**
 `python3 -m venv venv`
 
@@ -35,6 +36,7 @@ Once the virtual environment has been created, actuvate it
 
 **Windows:**
 `venv/Scripts/activate.bat`
+
 **Linux:**
 `source venv/bin/activate`
 
@@ -63,7 +65,7 @@ If you want to re-run the script, simply activate the virtual environment again 
 
 **ENJOY!!**
 
-If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...
+If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...</br>
 Feel free to contact me at DarkKnight450@protonmail.com
 Any feedback/suggestions would be highly valued.. 
 
