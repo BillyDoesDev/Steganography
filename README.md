@@ -61,9 +61,9 @@ There is also a sample png image which has been included by the name of `sample.
 4. Some Unicode characters cannot be read properly... Using uncommon characters may break the code (all punctuations work fine though)
 5. The max number of characters that can be encoded in an image depends upon its resolution... For example, an image of resolution 1920 by 1080 pixels can accommodate `(1920*1080)/3 = 691200` characters only.
 </br></br>
- 
- 
+  
 ## 
+
 **ENJOY!!**
  
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...</br>
