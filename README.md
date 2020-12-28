@@ -35,7 +35,7 @@ Clone/extract this project into the required directory and then, fire up a termi
 Once the virtual environment has been created, activate it
 
 **Windows:**
-`venv/Scripts/activate.bat`
+`venv\Scripts\activate.bat`
 
 **Linux:**
 `source venv/bin/activate`
