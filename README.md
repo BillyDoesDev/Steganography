@@ -23,7 +23,7 @@ Read the official `pip` and `pyperclip` documentation for more info...
  
 ## Recommended: Create a virtual python environment to house the dependencies of this project
  
-Clone/extract this project into the required directory and then, fire up a terminal there and then create a python virtual environment there
+Clone/extract this project into the required directory and then, fire up a terminal (or `CMD` in case of Windows) there and then create a python virtual environment there
  
 **Windows:**
 `python -m venv venv`
@@ -39,7 +39,7 @@ Once the virtual environment has been created, activate it
 **Linux:**
 `source venv/bin/activate`
  
-*You should see `(venv)` appear before your prompt in the terminal, indicating that the virtual environment has been activated*
+*You should see `(venv)` appear before your prompt in the terminal, indicating that the virtual environment has been activated...*
 Then install the project requirements(The modules used are specified in the `requirements.txt` file)
  
 **Windows/Linux:**`pip install -r requirements.txt`
