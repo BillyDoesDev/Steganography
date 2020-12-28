@@ -9,7 +9,7 @@ A small python script that allows you to hide secret messages inside images and 
                                         wwdP                             
 ```
 
-## Requires Python3**
+## Requires Python3
 
 ## Note(for Linux users):
 
@@ -39,7 +39,6 @@ Once the virtual environment has been created, actuvate it
 `source venv/bin/activate`
 
 *You should see `(venv)` appear before your prompt in the terminal, indicating that the virtual environment has been activated*
-
 Then install the project requirements(The modules used are specified in the `requirements.txt` file)
 
 **Windows/Linux:**`pip install -r requitements.txt`
@@ -53,6 +52,7 @@ If you want to re-run the script, simply activate the virtual environment again 
 
 
 ## Limitations:
+
 1. This script is CPU intensive
 2. Works best on PNGs
 3. The resulting PNG image looses its transparency(if any)
@@ -64,8 +64,7 @@ If you want to re-run the script, simply activate the virtual environment again 
 **ENJOY!!**
 
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...
-
 Feel free to contact me at DarkKnight450@protonmail.com
 Any feedback/suggestions would be highly valued.. 
 
-</> with ♡
+</> with ♡, on GitHub
