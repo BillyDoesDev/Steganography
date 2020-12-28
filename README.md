@@ -21,9 +21,7 @@ Users running a Debian based OS such as Ubuntu may install the required package 
  
 Read the official `pip` and `pyperclip` documentation for more info...
  
-## Recommended: Create a virtual python environment to house the dependencies of this project
-
-## Execution:
+## Recommended execution style: Create a virtual python environment to house the dependencies of this project
  
 Clone/extract this project into the required directory and then, fire up a terminal (or `CMD` in case of Windows) there and then create a python virtual environment there
  
