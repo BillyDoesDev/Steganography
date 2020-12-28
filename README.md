@@ -9,7 +9,7 @@ A small python script that allows you to hide secret messages inside images and 
                                         wwdP                             
 ```
 
-**Requires Python3**
+## Requires Python3**
 
 ## Note(for Linux users):
 
@@ -22,15 +22,12 @@ Users running a Debian based OS such as Ubuntu may install the required package 
 Read the official `pip` and `pyperclip` documentation for more info...
 
 
-## Recommended:
-
-Create a virtual python environment to house the dependencies of this project
+## Recommended: Create a virtual python environment to house the dependencies of this project
 
 Clone/extract this project into the required directory and then, fire up a terminal there and then create a pythn virtual environment there
 
 **Windows:**
 `python -m venv venv`
-
 **Linux:**
 `python3 -m venv venv`
 
@@ -38,7 +35,6 @@ Once the virtual environment has been created, actuvate it
 
 **Windows:**
 `venv/Scripts/activate.bat`
-
 **Linux:**
 `source venv/bin/activate`
 
@@ -46,16 +42,15 @@ Once the virtual environment has been created, actuvate it
 
 Then install the project requirements(The modules used are specified in the `requirements.txt` file)
 
-**Windows/Linux:**
-`pip install -r requitements.txt`
+**Windows/Linux:**`pip install -r requitements.txt`
 
 Once the requirements have been satisfied, the script is ready to run...
 
-**Windows/Linux:**
-`python script.py`
+**Windows/Linux:**`python script.py`
 
 
 If you want to re-run the script, simply activate the virtual environment again and then run it by `python script.py`
+
 
 ## Limitations:
 1. This script is CPU intensive
@@ -69,6 +64,7 @@ If you want to re-run the script, simply activate the virtual environment again 
 **ENJOY!!**
 
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...
+
 Feel free to contact me at DarkKnight450@protonmail.com
 Any feedback/suggestions would be highly valued.. 
 
