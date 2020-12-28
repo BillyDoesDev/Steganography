@@ -43,7 +43,7 @@ Once the virtual environment has been created, activate it
 *You should see `(venv)` appear before your prompt in the terminal, indicating that the virtual environment has been activated*
 Then install the project requirements(The modules used are specified in the `requirements.txt` file)
 
-**Windows/Linux:**`pip install -r requitements.txt`
+**Windows/Linux:**`pip install -r requirements.txt`
 
 Once the requirements have been satisfied, the script is ready to run...
 
@@ -51,6 +51,7 @@ Once the requirements have been satisfied, the script is ready to run...
 
 
 If you want to re-run the script, simply activate the virtual environment again and then run it by `python script.py`
+There is also a sample png image which has been included by the name of `sample.png`. You may use it for testing...
 
 
 ## Limitations:
