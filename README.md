@@ -22,6 +22,8 @@ Users running a Debian based OS such as Ubuntu may install the required package 
 Read the official `pip` and `pyperclip` documentation for more info...
  
 ## Recommended: Create a virtual python environment to house the dependencies of this project
+
+## Execution:
  
 Clone/extract this project into the required directory and then, fire up a terminal (or `CMD` in case of Windows) there and then create a python virtual environment there
  
@@ -60,6 +62,8 @@ There is also a sample png image which has been included by the name of `sample.
 5. The max number of characters that can be encoded in an image depends upon its resolution... For example, an image of resolution 1920 by 1080 pixels can accommodate `(1920*1080)/3 = 691200` characters only.
 </br></br>
  
+ 
+## 
 **ENJOY!!**
  
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...</br>
