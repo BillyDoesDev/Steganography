@@ -11,7 +11,7 @@ A small python script that allows you to hide secret messages inside images and 
 
 **Requires Python3**
 
-##Note(for Linux users):
+## Note(for Linux users):
 
 Some Linux distros may not have pip installed by default. In that case, you may need to install it manually on your system.
 Users running a Debian based OS such as Ubuntu may install it by `sudo apt install python3-pip`
@@ -22,7 +22,7 @@ Users running a Debian based OS such as Ubuntu may install the required package 
 Read the official `pip` and `pyperclip` documentation for more info...
 
 
-##Recommended:
+## Recommended:
 
 Create a virtual python environment to house the dependencies of this project
 
@@ -57,18 +57,19 @@ Once the requirements have been satisfied, the script is ready to run...
 
 If you want to re-run the script, simply activate the virtual environment again and then run it by `python script.py`
 
-##Limitations:
+## Limitations:
 1. This script is CPU intensive
 2. Works best on PNGs
 3. The resulting PNG image looses its transparency(if any)
 4. Some Unicode characters cannot be read properly... Using uncommon characters may break the code(all punctuations work fine though)
-5. The max number of characters that can be encoded in an image depends upon its resolution... For example, an image of resolution 1920 by 1080 pixels can accomodate `(1920*1080)/3 = 691200` characters only.
+5. The max number of characters that can be encoded in an image depends upon its resolution... For example, an image of resolution 1920 by 1080 pixels can accommodate `(1920*1080)/3 = 691200` characters only.
 
 
 
 **ENJOY!!**
+
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...
 Feel free to contact me at DarkKnight450@protonmail.com
 Any feedback/suggestions would be highly valued.. 
 
-**</>** with ♡
+</> with ♡
