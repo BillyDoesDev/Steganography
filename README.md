@@ -65,7 +65,7 @@ There is also a sample png image which has been included by the name of `sample.
 **ENJOY!!**
  
 If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...</br>
-Feel free to contact me at DarkKnight450@protonmail.com
+Feel free to contact me at DarkKnight450@protonmail.com </br>
 Any feedback/suggestions would be highly valued... 
  
 </> with ♡, at GitHub
