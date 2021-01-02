@@ -68,7 +68,7 @@ If you copy or distribute any part of this project, then be sure to give @DarkKn
 Feel free to contact me at DarkKnight450@protonmail.com
 Any feedback/suggestions would be highly valued... 
  
-</> with ♡, on GitHub
+</> with ♡, at GitHub
  
 
 
