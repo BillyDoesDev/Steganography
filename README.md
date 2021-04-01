@@ -1,14 +1,7 @@
 # Steganography
 A small python script that allows you to hide secret messages inside images and vice-versa 
  
-```
-888b.           8    8    8  dP       w      8      w     d8 8888 .d88b. 
-8   8 .d88 8d8b 8.dP 8.dP 8wdP  8d8b. w .d88 8d8b. w8ww  dP8 8ww. 8P  Y8 
-8   8 8  8 8P   88b  88b  88Yb  8P Y8 8 8  8 8P Y8  8   dPw8   `8 8b  d8 
-888P' `Y88 8    8 Yb 8 Yb 8  Yb 8   8 8 `Y88 8   8  Y8P    8 Y88P `Y88P' 
-                                        wwdP                             
-```
- 
+
 ## Requires Python3
  
 ## Note(for Linux users):
@@ -64,7 +57,7 @@ There is also a sample png image which has been included by the name of `sample.
 
 **ENJOY!!**
  
-If you copy or distribute any part of this project, then be sure to give @DarkKnight450 credits and show some love...</br>
+If you copy or distribute any part of this project, then be sure to give me some credit and show some love...</br>
 Feel free to contact me at DarkKnight450@protonmail.com </br>
 Any feedback/suggestions would be highly valued... 
  
