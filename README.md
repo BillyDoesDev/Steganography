@@ -43,7 +43,45 @@ Once the requirements have been satisfied, the script is ready to run...
  
 If you want to re-run the script, simply activate the virtual environment again and then run it by `python script.py`
 There is also a sample png image which has been included by the name of `sample.png`. You may use it for testing...
- 
+
+
+## How does it work?
+
+Two key functions are at play:
+- `get_binary(message)`
+- `mutate(pixels)`
+
+**In the `get_binary` function:**
+
+Basically, each word is separated by a `@`, which is then dealt with accordingly in the
+`mutate` function. The end of this so-called binary string is signified by the `!` at the end
+which signals the program to stop reading the thing further.
+
+```python
+>>> message
+'ab'
+>>> binary = []
+>>> for i in message: binary += list(bin(ord(i))[2:].rjust(8, "0") + "@")
+... 
+>>> binary
+['0', '1', '1', '0', '0', '0', '0', '1', '@', '0', '1', '1', '0', '0', '0', '1', '0', '@']
+>>> binary = binary[: len(binary) - 1] + list("!")
+>>> binary
+['0', '1', '1', '0', '0', '0', '0', '1', '@', '0', '1', '1', '0', '0', '0', '1', '0', '!']
+```
+
+<hr>
+
+**In the `mutate` function:**
+
+- we're going over each channel in this loop
+- we're also reading the bits in our so-called binary string
+- now, depending on the value of each bit, sy 1 or 0, (or even @), we change the vlaues of the channels slightly...
+- this operation comes to a stop when the bit reads `!`
+- the function *decoding* the image simply does the opposite of this
+this makes this program really non-standard and personally, kinda dumb lol
+
+
 ## Limitations:
  
 1. This script is CPU intensive

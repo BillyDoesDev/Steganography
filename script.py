@@ -35,9 +35,22 @@ def refine_pixels(pixels):
 
 def get_binary(message):
 
-    # returns the message to be encoded in the form of binary
-    # a byte ending with a "@" means that more data is to be read
-    # a byte ending with a "!" means that no more data is to be read
+    ## An example of how it works (this is dumb, I know):
+    
+    ## basically, each word is separated by a `@`, which is then dealt with accordingly in the
+    ## `mutate` function. The end of this so-called binary string is signified by the `!` at the end
+    ## which signals the program to stop reading the thing further.
+
+    # >>> message
+    # 'ab'
+    # >>> binary = []
+    # >>> for i in message: binary += list(bin(ord(i))[2:].rjust(8, "0") + "@")
+    # ... 
+    # >>> binary
+    # ['0', '1', '1', '0', '0', '0', '0', '1', '@', '0', '1', '1', '0', '0', '0', '1', '0', '@']
+    # >>> binary = binary[: len(binary) - 1] + list("!")
+    # >>> binary
+    # ['0', '1', '1', '0', '0', '0', '0', '1', '@', '0', '1', '1', '0', '0', '0', '1', '0', '!']
 
     binary = []
     for i in message:
@@ -53,6 +66,16 @@ def mutate(pixels):
     done_reading = False
     for i in range(0, len(pixels), 3):
         for j in range(i, i + 3):
+
+            # here, we're going over each channel in this loop
+            # we're also reading the bits in our so-called binary string
+            # now, depending on the value of each bit, sy 1 or 0, (or even @), we
+            # change the vlaues of the channels slightly... this operation comes to a stop when
+            # the bit reads `!`
+
+            # the function decoding the image simply does the opposite of this
+            # this makes this program really non-standard and personally, kinda dumb lol
+
             if binary[j] == "1":
                 if pixels[j] % 2 == 0:
                     new_pixels.append(pixels[j] + 1)
